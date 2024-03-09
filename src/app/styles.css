@@ -1,0 +1,603 @@
+.navbar-expand-lg {
+  background-color: #e7e5e5 !important;
+}
+
+.home_background {
+  background-image: url("../../public/back1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: "90vh";
+}
+.button_class {
+  transition: 0.3s ease-in-out;
+}
+
+.button_class:hover {
+  background-color: #3e9d7c !important;
+}
+.button_vision-class {
+  transition: 0.3s ease-in-out;
+}
+
+.button_vision-class:hover {
+  background-color: #036e8c !important;
+}
+
+.signUp_Form {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 8px;
+  margin: 80px;
+}
+.register_form {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 8px;
+  margin: 40px 0 80px;
+}
+
+.signup_form_control {
+  border: none;
+  outline: none;
+  padding: 12px 3px 0px !important;
+}
+
+.google_facebook_link {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px !important;
+}
+
+.homeWrapper--section {
+  background-color: #036e8c;
+  padding: 50px;
+  color: #fff;
+}
+.homeWrapper--section .container h4 {
+  font-size: 20px;
+}
+
+.aboutVision-Container {
+  width: 100%;
+  background-color: rgba(44, 50, 61, 0.9);
+}
+
+.cust_apply_box {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+/* bank slider  */
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+.cibil_banner_img {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-image: url("../../public/cibilBanner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: blur(2px);
+}
+.cibil_banner_img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.partner_banner {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  background-image: url("../../public/partnerBanner2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partner_banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.why_partner_with_addrupee {
+  padding: 13px 21px;
+  color: #ececec;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.why_partner_with_addrupee h3 {
+  color: #3e9d7c;
+  font-weight: 600;
+}
+
+.ourProducts_card {
+  width: 22rem;
+  margin: 20px 0;
+}
+
+.ourProducts_card img {
+  height: 250px;
+}
+
+.NoHiddenFeeImg {
+  background-image: url(../../public/NoHiddenFee.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.NoHiddenFeeImg h2 {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.NoHiddenFeeImg:hover h2 {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.NoHiddenFeeImg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.LessDocuments {
+  background-image: url(../../public/LessDocuments.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.LessDocuments h2 {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.LessDocuments:hover h2 {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.LessDocuments::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.SpecialistTeam {
+  background-image: url(../../public/specialistTeam.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.SpecialistTeam h2 {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.SpecialistTeam:hover h2 {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.SpecialistTeam::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.SimpleLoanProcess_Img {
+  transition: all 0.3s ease-in-out;
+}
+
+/* .card-img-top {
+  height: 200px;
+} */
+
+.SimpleLoanProcess_Img:hover {
+  background-color: #036e8c !important;
+  color: #ffffff !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .ourProducts_card {
+    width: 18rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .ourProducts_card {
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .signUp_Form {
+    margin: 20px;
+  }
+
+  .margin_cibil {
+    margin: 50px 0;
+  }
+  .cibil_img {
+    margin: 0 0 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cibil_img img {
+    width: 80% !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .ourProducts_card {
+    width: 22rem;
+  }
+  .smallScreenNone {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .why_partner_with_addrupee h3 {
+    font-size: 24px;
+  }
+  .why_partner_with_addrupee p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .why_partner_with_addrupee h3 {
+    font-size: 20px;
+  }
+  .why_partner_with_addrupee p {
+    font-size: 12px;
+  }
+}
+
+.issueRelatedCibil {
+  display: none;
+}
+
+.smallsize_button {
+  display: none !important;
+}
+
+@media screen and (max-width: 1150px) {
+  .navbar-nav .nav-item .nav-link {
+    font-size: 14px !important;
+  }
+  .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+    font-size: 14px !important;
+  }
+  .smallSize_text {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .smallSize_block {
+    display: none !important;
+  }
+  .issueRelatedCibil {
+    display: block;
+  }
+  .smallsize_button {
+    display: block !important;
+  }
+  .issueCibil {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .signUp_Form {
+    margin: 20px;
+  }
+
+  .smallScreenNone {
+    display: none;
+  }
+}
+
+.calc_class {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+}
+
+.benefits_box {
+  position: relative;
+  width: 350px;
+  padding: 8px;
+  margin: 0 0 20px 0;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1050px) {
+  .benefits_box {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .benefits_box {
+    width: 330px;
+  }
+}
+@media screen and (max-width: 412px) {
+  .partner_buttons {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 405px) {
+  .partner_contact_button {
+    margin: 10px 0 0;
+  }
+}
+
+.gallery_wrapper {
+  width: 100%;
+  height: 200px;
+  background-color: #d6ccc2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.gallery_wrapper h3 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #264653;
+}
+
+.gallery_wrapper p {
+  width: 60%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: #8d99ae;
+}
+
+@media screen and (max-width: 850px) {
+  .gallery_wrapper h3 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #264653;
+  }
+
+  .gallery_wrapper p {
+    width: 60%;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    color: #8d99ae;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .gallery_wrapper p {
+    display: none;
+  }
+}
+
+.gallery_images-section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 0;
+}
+.gallery_image img {
+  margin: 20px;
+  object-fit: cover;
+  position: relative;
+}
+.image1 img {
+  width: 340px;
+  height: 450px;
+}
+.image2 img {
+  width: 340px;
+  height: 300px;
+}
+.image3 img {
+  width: 340px;
+  height: 380px;
+}
+.image4 img {
+  width: 340px;
+  height: 320px;
+}
+.image5 img {
+  width: 340px;
+  height: 400px;
+  transform: translateY(-150px);
+}
+.image6 img {
+  width: 340px;
+  height: 400px;
+  transform: translateY(-70px);
+}
+.image7 img {
+  width: 340px;
+  height: 400px;
+  transform: translateY(-80px);
+}
+
+@media screen and (max-width: 850px) {
+  .image1 img {
+    width: 320px;
+    height: 450px;
+  }
+  .image2 img {
+    width: 320px;
+    height: 450px;
+  }
+  .image3 img {
+    width: 320px;
+    height: 450px;
+  }
+  .image4 img {
+    width: 320px;
+    height: 450px;
+  }
+  .image5 img {
+    width: 320px;
+    height: 450px;
+    transform: translateY(0px);
+  }
+  .image6 img {
+    width: 320px;
+    height: 450px;
+    transform: translateY(0px);
+  }
+  .image7 img {
+    width: 320px;
+    height: 450px;
+    transform: translateY(0px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .image1 img {
+    width: 280px;
+    height: 380px;
+  }
+  .image2 img {
+    width: 280px;
+    height: 380px;
+  }
+  .image3 img {
+    width: 280px;
+    height: 380px;
+  }
+  .image4 img {
+    width: 280px;
+    height: 380px;
+  }
+  .image5 img {
+    width: 280px;
+    height: 380px;
+    transform: translateY(0px);
+  }
+  .image6 img {
+    width: 280px;
+    height: 380px;
+    transform: translateY(0px);
+  }
+  .image7 img {
+    width: 280px;
+    height: 380px;
+    transform: translateY(0px);
+  }
+}
+
+.dashboard_card-1 {
+  width: 220px !important;
+  background-color: #17a2b8;
+}
+.dashboard_card-2 {
+  width: 220px !important;
+  background-color: #ffc107;
+}
+.dashboard_card-3 {
+  width: 220px !important;
+  background-color: #28a745;
+}
+.dashboard_card-4 {
+  width: 220px !important;
+  background-color: #dc3545;
+}
+
+.dashboard_card {
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+@media screen and (max-width: 1199px) {
+  .dashboard_card {
+    width: 200px !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  .dashboard_card {
+    width: 250px !important;
+  }
+}
+@media screen and (max-width: 853px) {
+  .dashboard_card {
+    width: 220px !important;
+  }
+}
+@media screen and (max-width: 793px) {
+  .dashboard_card {
+    width: 300px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .dashboard_card {
+    width: 100% !important;
+  }
+}
+
+.dashboard_card .card-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.dashboard_card .card-inner .card_icon {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .inquiry_form {
+    flex-direction: column-reverse !important;
+  }
+}
+
+.persoanl_loan_navbar {
+  background-color: #036e8c !important;
+  border-radius: 6px;
+}
+
+.btn-persoanl_loan_navbar {
+  border: 2px solid #ffffff !important;
+  color: #ffffff !important;
+}

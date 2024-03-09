@@ -1,0 +1,107 @@
+.business_loan_banner {
+  width: 100%;
+  height: 80vh;
+  background-image: url("../../../../../public/businessloanbanner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+}
+
+.business_loan_content_inside_banner {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding: 30px 50px;
+}
+
+@media screen and (max-width: 850px) {
+  .business_loan_content_inside_banner {
+    width: 100%;
+  }
+}
+
+.business_loan_content_inside_banner h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #e9e7e8;
+}
+
+@media screen and (max-width: 500px) {
+  .business_loan_content_inside_banner h2 {
+    font-size: 30px;
+  }
+}
+
+.business_loan_content_inside_banner p {
+  color: #e9e7e8;
+}
+
+.business_loan_content_inside_banner .input-group {
+  background-color: #e9e7e8;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.business_loan_content_inside_banner .input-group input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.business_loan_content_inside_banner .input-group input:focus {
+  box-shadow: none;
+}
+
+.business_loan_proccess_main_section {
+  display: flex;
+}
+
+.business_loan_proccess_main_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.business_loan_proccess {
+  width: 200px;
+  height: 250px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  margin: 10px;
+  padding: 12px;
+}
+
+.business_loan_proccess_icon {
+  font-size: 28px;
+  color: #036e8c;
+}
+
+.business_loan_proccess h4 {
+  font-size: 19px;
+  font-weight: 700;
+  padding-top: 8px;
+}
+
+.business_loan_proccess p {
+  font-size: 16px;
+  color: #403d39;
+  font-weight: 500;
+}
+
+.business_loan_accordion_hash {
+  transition: all 0.3s ease-in-out;
+}
+
+.business_loan_accordion_hash:hover {
+  color: #036e8c;
+}
+
+.accordion-header button:focus {
+  box-shadow: none;
+}
